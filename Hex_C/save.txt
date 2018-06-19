@@ -1,0 +1,22 @@
+\hex
+\dim 9
+\IA 0 0
+\board
+. . . . . . . . . 
+. . . . . . . . . 
+. . . o . . . . o 
+. . . . o . . . . 
+. . . . . . . . . 
+. . * . . . * . . 
+. . . . . . . . . 
+. . . . . . . . . 
+. . . . . . . . . 
+\endboard
+\game
+\play o 2 8
+\play * 5 2
+\play o 3 4
+\play * 5 6
+\play o 2 3
+\endgame
+\endhex

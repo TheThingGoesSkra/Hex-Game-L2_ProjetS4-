@@ -1,0 +1,8 @@
+gcc -c Liste.c
+gcc -c Graphe.c
+gcc -c Groupe.c
+gcc -c Minimax.c
+gcc -c Pont.c
+gcc -c IA.c
+gcc -c Plateau.c
+gcc Liste.o Graphe.o Groupe.o Minimax.o Pont.o IA.o Plateau.o -o Hex -lm

@@ -1,0 +1,12 @@
+#! /bin/sh
+
+noms=""
+while [ $# -ge 2 ]
+do
+	gcc -c $1
+	noms="$noms "`echo $1 | tr '.c' '.o'`
+	shift
+done
+out=$1
+echo $noms $out
+gcc $noms -o $out
