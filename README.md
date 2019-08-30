@@ -7,4 +7,4 @@ Developed concepts:
   - Min/Max
   - Shannon Resistance Network (evaluation function)
   - Bridge Management
-  - Winning strategies
+  - Classic Winning strategie
